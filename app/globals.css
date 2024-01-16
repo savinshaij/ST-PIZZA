@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.tabs > * {
+  @apply px-5 py-1 rounded-xl border-[1px]   font-medium text-slate-800;
+}
+div.tabs > *.active{
+  @apply px-5 py-1 rounded-xl  bg-orange-600  text-white font-medium ;
+}
